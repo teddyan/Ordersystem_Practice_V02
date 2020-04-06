@@ -1,0 +1,6 @@
+C:\Users\Teddy\Documents\Visual Studio 2015\SelfPracticing\SP_01_OrderSystem\SP_01_OrderSystem\bin\Debug\SP_01_OrderSystem.exe.config
+C:\Users\Teddy\Documents\Visual Studio 2015\SelfPracticing\SP_01_OrderSystem\SP_01_OrderSystem\bin\Debug\SP_01_OrderSystem.exe
+C:\Users\Teddy\Documents\Visual Studio 2015\SelfPracticing\SP_01_OrderSystem\SP_01_OrderSystem\bin\Debug\SP_01_OrderSystem.pdb
+C:\Users\Teddy\Documents\Visual Studio 2015\SelfPracticing\SP_01_OrderSystem\SP_01_OrderSystem\obj\Debug\SP_01_OrderSystem.csprojResolveAssemblyReference.cache
+C:\Users\Teddy\Documents\Visual Studio 2015\SelfPracticing\SP_01_OrderSystem\SP_01_OrderSystem\obj\Debug\SP_01_OrderSystem.exe
+C:\Users\Teddy\Documents\Visual Studio 2015\SelfPracticing\SP_01_OrderSystem\SP_01_OrderSystem\obj\Debug\SP_01_OrderSystem.pdb
