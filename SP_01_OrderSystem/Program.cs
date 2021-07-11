@@ -13,6 +13,7 @@ namespace SP_01_OrderSystem
             int i = 2;
             List<Menu> menu = new List<Menu>();
             Menu mu = new Menu();
+            
             menu.Add(new Menu
             {
                 Serial = mu.Serial,
@@ -29,7 +30,7 @@ namespace SP_01_OrderSystem
             while (keepLooping == false)
             {
                 Console.WriteLine("Choose your identity:");
-                Console.WriteLine("User:1 , Restaurant Backend:2");
+                Console.WriteLine("User:1 , Restaurant Backstage:2");
                 chooseSuccess = int.TryParse((Console.ReadLine()), out a); //If success output a, or return the boolean value
                 if (chooseSuccess == true && (a <= 2 && a > 0))
                 {
@@ -68,14 +69,14 @@ namespace SP_01_OrderSystem
                         }
                         break;
                     case "2":
-                        Console.WriteLine("Hi this is backend, what would you want to do today:) ?");
+                        Console.WriteLine("Hi this is backstage, what would you want to do today:) ?");
                         Console.WriteLine("1.Create a meanu 2.Check the current menu\r\n");
                         Chosen = int.Parse(Console.ReadLine());
                         if (Chosen == 1)
                         {
                             int serial = i;
                             Console.WriteLine("Create a new menu!!!");
-                            Console.WriteLine("The appetite is:");
+                            Console.WriteLine("The appetizer is:");
                             string app = Console.ReadLine();
                             Console.WriteLine("The soup name is:");
                             string soup = Console.ReadLine();
@@ -83,7 +84,7 @@ namespace SP_01_OrderSystem
                             string dessert = Console.ReadLine();
                             Console.WriteLine("What is your main dish name:");
                             string maincourse = Console.ReadLine();
-                            Console.WriteLine("How much you gonna get from the customer? :");
+                            Console.WriteLine("How much your customer gonna pay? :");
                             int price = int.Parse(Console.ReadLine());
                             Menu menu1 = new Menu()
                             {

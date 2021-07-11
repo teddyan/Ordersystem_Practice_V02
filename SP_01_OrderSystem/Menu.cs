@@ -13,9 +13,9 @@ namespace SP_01_OrderSystem
     {
         private int _Serial = 1;
         private string _Appetizer = "Butter Prawn";
-        private string _Soup = "tomato pumpkin soup";
-        private string _Dessert = "smashed red bea pancke";
-        private string _MainCourse = "Spaghetti with Butter and Cheese";
+        private string _Soup = "Tomato Pumpkin soup";
+        private string _Dessert = "Smashed red bean Ice Cream";
+        private string _MainCourse = "Spaghetti W/ Seafoods";
         private double _Price = 49;
         public int Serial
         {
